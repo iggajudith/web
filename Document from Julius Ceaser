@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Application form
+	</title>
+</head>
+<Style>
+	h1{
+		font-size: 25px;
+		color:green;
+	}
+	body{
+		font-family: sans-serif;
+	}
+
+
+
+
+</Style>
+<body>
+<div class="biodata">
+	<h1><center><u><b>JOB APPLICATION FORM</b></h1></center></u>
+	<form>
+	<div class="bio">
+		
+			<form action="welcome.php" method="POST">
+				<p>PASSPORT PHOTO: <input type="file"></p>
+            <P><input type="text" id="text" placeholder="Enter Sirname"></P>
+            <P><input type="text" id="text" placeholder="Enter Secondname"></P>
+            <p>GENDER:<select id="gender">
+            	<option>MALE</option>
+            	<OPTION>FEMALE</OPTION>
+            </select></p>
+            <p>MARITAL STATUS:<select id="marital">
+            	<option>MARRIED</option>
+            	<OPTION>SINGLE</OPTION>
+            	<OPTION>DIVORCED</OPTION>
+            </select></p>
+            <P><input type="text" id="text" placeholder="Enter Address"></P>
+            <p><input type="date" name="date" id="date"></p>
+</div>
+
+<div class="position">
+
+ <p>JOBS:
+ 	<select id="jobs">
+ 		<OPTGROUP>
+ 			<OPTION>SELECT</OPTION>
+            	<option>OFFICE ATTENDANT</option>
+            	<OPTION>SOFTWARE DEVELOPER</OPTION>
+            	<OPTION>MARKETER</OPTION>
+            </OPTGROUP>
+            	<OPTGROUP>
+            	<OPTION>GRAPHICS DESIGNER</OPTION>
+            	<OPTION>CLEANER</OPTION>
+            	<OPTION>PUBLIC RELATIONS OFFICER</OPTION>
+            </OPTGROUP>
+
+
+            </select></p>
+	</div>
+	<div class="languages">
+<p> LANGUAGES SPOKEN:<select class="lang">
+	<optgroup> 
+		<option>
+			select languages
+		</option>
+		<option>
+			ENGLISH
+		</option>
+		<option>
+			SWAHILI
+		</option>
+		<option>
+			LUGANDA
+		</option>
+<option>
+			RUNYANKOLE/RUKIGA
+		</option>
+		<option>
+			RUNYORO/RUTORO
+		</option>
+	</optgroup>
+</select>
+
+<p>COMMUNICATION SKILLS:<BR>
+	<SELECT>
+		<option>select</option>
+		<option>Excellent</option>
+		<option>Very good</option>
+		<option>Good</option>
+		<option>Fair</option>
+	</SELECT>
+<p><textarea maxlength="1000" placeholder="Enter Your Application"></textarea>
+<p>
+	<input type="reset" name="reset">
+	<input type="submit" name="submit" value="submit">
+
+<p>
+<a href="jobdesc.html">JOB DESCRIPTIOIN PAGE</a></p>
+
+
+	</div>
+			</form>
+
+</div>
+<p>&copy Ron</p>
+</body>
+</html>
